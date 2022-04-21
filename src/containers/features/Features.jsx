@@ -24,7 +24,7 @@ const featuresData = [
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text"> Hyper Arena is the first game based in the Hyperverse standards, a top-down 2d rpg game: Explore dungeons in the PvE or jump into the PvP Arena, in which the last team standing alive wins  </h1>
+      <h1 className="gradient__text"> Hyper Arena is the first play-and-earn game based in the Hyperverse standards, a top-down 2d rpg game: Explore dungeons in the PvE or jump into the PvP Arena, in which the last team standing alive wins  </h1>
       <p>You control a Hyper Hamster in pursuit of the eternal glory</p>
     </div>
     <div className="gpt3__features-container">

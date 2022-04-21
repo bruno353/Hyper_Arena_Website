@@ -1,5 +1,5 @@
 import React from 'react';
-import possibilityImage from '../../assets/possibility.png';
+import possibilityImage from '../../assets/dragon.png';
 import './possibility.css';
 
 const Possibility = () => (
@@ -8,10 +8,9 @@ const Possibility = () => (
       <img src={possibilityImage} alt="possibility" />
     </div>
     <div className="gpt3__possibility-content">
-      <h4>Request Early Access to Get Started</h4>
-      <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-      <h4>Request Early Access to Get Started</h4>
+      <h4>Fun to Play</h4>
+      <h1 className="gradient__text">We believe the next<br />generation of NFT games will be focused in the gameplay</h1>
+      <p>Most of current crypto games are tedious and just serve as a way to easily enrich those who entered first. We are creating a game with a healthy ecosystem, where users will play for fun, and making money is just a consequence.</p>
     </div>
   </div>
 );
