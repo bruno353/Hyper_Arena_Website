@@ -7,11 +7,16 @@
 
 .gpt3__brand div {
     flex: 1;
-    max-width: 150px;
-    min-width: 120px;
+    max-width: 50px;
+    min-width: 50px;
     margin: 1rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bolafogo {
+    width: 200px;
+    height: 200px;
 }
