@@ -152,7 +152,8 @@
 
 import React from 'react';
 import './header.css';
-import ai from '../../assets/ai.png';
+import ReactPlayer from 'react-player';
+// import ai from '../../assets/ai.png';
 
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
@@ -165,7 +166,7 @@ const Header = () => (
       <div className="gpt3__header-content__people" />
     </div>
     <div className="gpt3__header-image">
-      <img src={ai} />
+      <ReactPlayer controls url="https://www.youtube.com/watch?v=bCCuQMfryAY" />
     </div>
   </div>
 );
